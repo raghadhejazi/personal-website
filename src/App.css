@@ -1,0 +1,768 @@
+
+.navbar {
+  background-color: white !important;
+  color: #8a2be2;
+  box-shadow: 0 15px 36px rgb(0 0 0 / 20%) !important;
+  font-weight: bold;
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+  color: blueviolet;
+}
+
+.navbar ul li a {
+  color: blueviolet !important;
+  font-weight: 500;
+}
+
+.herosection {
+  background-color: blueviolet;
+  padding: 130px 0;
+  height: 550px;
+
+}
+
+.herosection h1 {
+  padding-top: 0% !important;
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg,
+      #EEE2DE 0%,
+      #f3e1da 29%,
+      rgb(170, 98, 238) 67%,
+      #fff 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 55px;
+
+
+
+
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+
+
+}
+
+.herosection h3 {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em;
+  /* Adjust as needed */
+  color: white;
+  font-size: 18px;
+
+  padding-top: 20px;
+  animation:
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+
+.body {
+  overflow-x: hidden !important;
+}
+
+.min img {
+  border-radius: 50%;
+  height: 300px;
+  margin-left: 170px;
+  margin-top: 20px;
+  width: 300px;
+  border: 20px solid #fff;
+}
+
+
+
+.min1 {
+  padding-left: 40px;
+  padding-top: 50px;
+}
+
+
+.min1 span {
+  font-weight: lighter;
+  font-size: 25px;
+  color: white;
+}
+
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange;
+  }
+}
+
+
+.o {
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  margin-top: -70px;
+  border-radius: 50%;
+}
+
+.p {
+  background-color: #fff;
+  height: 35px;
+  width: 35px;
+
+  margin-left: 45px;
+  border-radius: 50%;
+}
+
+.c {
+  background-color: #fff;
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+  border-radius: 50%;
+}
+
+
+
+
+.i {
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  margin-top: -400px;
+  border-radius: 50%;
+  margin-left: 1300px;
+}
+
+.t {
+  background-color: #fff;
+  height: 35px;
+  width: 35px;
+
+  margin-left: 1250px;
+  border-radius: 50%;
+}
+
+.y {
+  background-color: #fff;
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+  margin-left: 1250px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1120px) {
+  .i {
+    display: none;
+  }
+
+  .t {
+    display: none;
+  }
+
+  .y {
+    display: none;
+  }
+
+  .services .card h5 {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .herosection h1 {
+    font-size: 50px;
+    padding-top: 50px;
+  }
+
+  .herosection .min img {
+    margin-left: 100px !important;
+  }
+
+  .herosection h3 {
+    font-size: 15px;
+
+  }
+
+  .min1 {
+    padding-left: 3% !important;
+  }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+  .herosection {
+    padding-top: 0% !important;
+
+  }
+
+  .herosection h1 {
+    font-size: 50px;
+    padding-top: 55px !important;
+  }
+
+
+  .herosection .min1 span {
+    display: none;
+  }
+
+  .herosection h3 {
+    text-align: center;
+  }
+
+  .o {
+    display: none;
+  }
+
+  .p {
+    display: none;
+  }
+
+  .c {
+    display: none;
+  }
+
+  .about p {
+    line-height: 18px;
+    font-size: 17px !important;
+  }
+
+  .about .about-item {
+    margin-left: 70px !important;
+  }
+
+  .services {
+    height: 50% !important;
+  }
+
+  .services .card img {
+    height: 200px !important;
+  }
+
+  .services .card {
+    margin-bottom: 50px;
+  }
+
+  .experiences {
+    margin-top: 40px;
+  }
+
+  .services .card {
+    margin-bottom: 30px;
+  }
+
+  .protfolio .card img {
+    height: 300px !important;
+  }
+
+  .protfolio {
+
+    height: 50% !important;
+  }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+  .herosection h1 {
+    font-size: 40px;
+  }
+
+  .contact .link {
+    margin-top: 40px;
+    margin-left: 0% !important;
+  }
+
+
+  .herosection h3 {
+    font-size: 15px;
+  }
+
+  .herosection .min img {
+
+    margin-left: 20% !important;
+  }
+
+  .herosection {
+    padding-top: 0% !important;
+  }
+
+  .about .about-item {
+    margin-left: 150px !important;
+  }
+
+  .carousel-item .img {
+    margin-top: 0% !important;
+  }
+
+}
+
+@media only screen and (max-width: 820px) {
+  .experiences video {
+    height: 550px !important;
+    border-radius: 20px !important;
+    margin-top: 0% !important;
+    width: 550px !important;
+  }
+
+}
+
+@media only screen and (max-width: 688px) {
+
+  .about {
+    padding-top: 10% !important;
+
+  }
+
+  .about h3 {
+    text-align: center;
+  }
+
+  .about p {
+    text-align: center;
+  }
+
+  .about .about-item {
+    margin-top: 8% !important;
+  }
+
+  .services {
+    height: 50% !important;
+  }
+
+  .services .card img {
+    height: 300px !important;
+  }
+
+  .services .card {
+    margin-bottom: 50px;
+  }
+
+  .experiences {
+    margin-top: 40px;
+  }
+
+  .experiences h3 {
+    padding-bottom: 0% !important;
+  }
+
+  .experiences video {
+    height: 300px;
+    border-radius: 20px !important;
+    margin-top: 0% !important;
+    width: 600px;
+  }
+
+}
+
+@media only screen and (max-width: 578px) {
+
+  .experiences video {
+    height: 300px;
+    border-radius: 20px !important;
+    margin-top: 0% !important;
+    width: 80% !important;
+  }
+
+}
+
+@media only screen and (max-width: 510px) {
+  .herosection h1 {
+    padding-left: 30px;
+    font-size: 33px;
+  }
+}
+
+
+@media only screen and (max-width: 492px) {
+  .herosection h1 {
+    padding-left: 20px;
+    font-size: 33px;
+  }
+}
+
+@media only screen and (max-width: 489px) {
+  .herosection h1 {
+    padding-left: 50px;
+    font-size: 25px;
+  }
+
+  .herosection h3 {
+    font-size: 13px;
+
+  }
+
+  .experiences {
+    margin-top: 40px;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+  }
+
+
+
+  .experiences video {
+    height: 100px;
+    border-radius: 20px !important;
+    margin-top: 0% !important;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 422px) {
+  .herosection {
+    height: 500px;
+  }
+
+  .herosection h1 {
+    padding-bottom: 0% !important;
+    font-size: 20px;
+  }
+
+  .about p {
+    line-height: 25px !important;
+    font-size: 16px !important;
+  }
+
+  .herosection h3 {
+    font-size: 11px;
+  }
+
+  .herosection .min img {
+    height: 275px;
+    margin-top: 40px;
+
+    width: 275px;
+    margin-left: 13% !important;
+  }
+
+
+  .about .about-item {
+    margin-top: 5% !important;
+    margin-left: 25% !important;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .herosection {
+    height: 500px;
+  }
+
+  .herosection h1 {
+    padding-bottom: 0% !important;
+    font-size: 18px;
+    padding-left: 15%;
+  }
+
+  .herosection h3 {
+    font-size: 9px;
+  }
+
+  .herosection .min img {
+    margin-left: 13% !important;
+    height: 250px;
+    margin-top: 50px;
+    width: 250px;
+
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .herosection {
+    height: 500px;
+  }
+
+  .contact input {
+    padding: 10px 30px !important;
+  }
+
+  .herosection h1 {
+    padding-bottom: 0% !important;
+    font-size: 18px;
+    padding-left: 12%;
+  }
+
+  .herosection h3 {
+    padding-left: 0% !important;
+    font-size: 9px;
+  }
+
+  .herosection .min img {
+    margin-left: 9% !important;
+    height: 250px;
+    margin-top: 50px;
+    width: 250px;
+
+  }
+
+  .protfolio .card img {
+    height: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 305px) {
+  .herosection {
+    height: 500px;
+  }
+
+  .herosection h1 {
+
+    padding-bottom: 0% !important;
+    font-size: 17px;
+    padding-left: 7%;
+  }
+
+  .herosection h3 {
+    font-size: 8px;
+  }
+
+  .herosection .min img {
+    margin-left: 9% !important;
+    height: 220px;
+    margin-top: 50px;
+    width: 220px;
+
+  }
+}
+
+
+
+
+
+.about {
+  padding: 80px 0;
+}
+
+.about h3 {
+  padding-top: 30px;
+  color: #8a2be2;
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.about p {
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 35px;
+  color: rgb(0, 0, 0);
+
+}
+
+.about .span1 {
+  margin-top: 40px;
+
+}
+
+.about .about-item {
+  margin-left: 170px;
+  margin-top: 60px;
+}
+
+.about .about-item .me img {
+  border-radius: 50%;
+  height: 200px;
+  margin-bottom: 20px;
+
+  width: 200px;
+  border: 15px solid #8a2be2;
+}
+
+.about .about-item .link img {
+  width: 25px;
+  margin-right: 30px;
+  height: 25px;
+}
+
+
+.services {
+  padding: 60px 0;
+  background-color: #f7f7f7;
+  height: 500px;
+}
+
+.services .card img {
+  height: 150px;
+}
+
+.services h5 {
+  font-size: 22px;
+  color: #8a2be2;
+  font-weight: lighter;
+
+}
+
+.services h3 {
+  font-size: 40px;
+  color: #8a2be2;
+  padding-bottom: 40px;
+}
+
+
+
+
+.experiences {
+  padding: 80px 0;
+}
+
+.experiences h3 {
+  font-size: 40px;
+  color: #8a2be2;
+  padding-bottom: 40px;
+}
+
+.experiences video {
+  height: 450px;
+  border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+.protfolio {
+  padding: 60px 0;
+  background-color: #f7f7f7;
+  height: 800px;
+}
+
+.protfolio .card {
+  margin-top: 50px;
+}
+
+.protfolio .card img {
+  height: 250px;
+}
+
+
+.protfolio h3 {
+  font-size: 40px;
+  color: #8a2be2;
+  padding-bottom: 20px;
+}
+
+.viewer-opinions {
+  padding: 80px 0;
+
+}
+
+.viewer-opinions .viewer-opinions-item {
+  margin-top: 50px;
+}
+
+.viewer-opinions h3 {
+  font-size: 40px;
+  color: #8a2be2;
+  padding-bottom: 40px;
+}
+
+
+
+.carousel-item .img {
+  margin-top: 20px !important;
+}
+
+.contact .link {
+  margin-top: 40px;
+  margin-left: 40%;
+}
+
+.contact .link img {
+  width: 25px;
+  margin-right: 30px;
+  margin-top: 20px;
+  height: 25px;
+}
+
+
+.contact {
+  background-color: #8a2be2;
+
+  padding-top: 40px;
+  margin-bottom: 0% !important;
+
+}
+
+.footer hr {
+  color: white;
+  margin-top: 50px;
+}
+
+.contact h3 {
+  padding-top: 40px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+.contact p {
+  padding-top: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.contact input {
+  margin-top: 20px;
+  padding: 10px 50px;
+}
+
+
+
+.contact .link h2 {
+  color: white;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #8a2be2;
+  margin-top: 0% !important;
+}
+
+.footer p {
+  padding-top: 0% !important;
+  margin-bottom: 0% !important;
+  padding-bottom: 20px;
+}
